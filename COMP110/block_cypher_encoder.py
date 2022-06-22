@@ -1,6 +1,12 @@
-def print_matrix(matrix):
-    for row in matrix:
-        print(row)
+"""
+Uses the standard block cypher technique to encode a word using the given cypher.
+1. Enter the word you wish to encode
+2. Enter the width of the matrix
+3. Enter the rows of the matrix as numbers seperated by spaces.
+4. Enter the modulo number given in the question.
+"""
+
+#### TODO: Error Handeling + Input Validation
 
 def multiply_matrices(word_matrix, matrix):
     result = []
@@ -43,7 +49,8 @@ output_word = ""
 
 for i in range(len(coded_values)):
     for num in coded_values[i]:
-        output_word += chr((num % mod_num) + 97)
+        output_word += chr((num % mod_num) + 97) # CHANGE TO 96 IF A = 1
+
 
 print(f"\nThe Encoded Word Is: {output_word.upper()}")
 
