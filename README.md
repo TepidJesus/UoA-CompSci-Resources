@@ -8,3 +8,6 @@
         - This is a handy calculator used to calculate process times and effeciency.
     - Block_cyper_encoder
         - Used for encoding text using a block cypher. (Currently doesn't support decoding)
+
+- #### COMP130
+    - Contains helpful snippets of code from the course which I wrote throughout the course.
