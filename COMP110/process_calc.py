@@ -1,4 +1,14 @@
 
+"""
+A handy calculator to measure the processing time for a given set of processes.
+
+1. Enter the processing time required for each process in their starting order.
+2. Once all processes have been entered, press 0 to move to the next stage.
+3. Enter the alloted time slice for your machine.
+4. Enter the switching time for your machine.
+"""
+
+
 process_times = {}
 n = 1
 user_in = int(input(f"Enter a The Required Processing Time (ms) For Process {n} (Enter 0 To Move On): "))
