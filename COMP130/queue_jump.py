@@ -8,7 +8,7 @@ value at the front of the queue. If the value is not in the queue then the queue
 
 ### PASTE QUEUE CLASS HERE ###
 
-def jump_queue(queue, value):
+def queue_jump(queue, value):
     if queue.size() == 0:
         return
     oth_queue = Queue()
