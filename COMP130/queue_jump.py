@@ -1,7 +1,7 @@
 
 """
 
-This function takes a queue and a value. The function returns the queue but with the specified
+This function takes a queue and a value. The function modifies the queue so the specified
 value at the front of the queue. If the value is not in the queue then the queue is simply returned.
 
 """
